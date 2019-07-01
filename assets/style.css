@@ -19,7 +19,7 @@ body {
 
 .wrapper.indexPage {
     justify-content: center;
-    background-image: url("../assets/img/background/annie-spratt-44241-unsplash.jpg");
+    background-image: url("../assets/img/background/annie-spratt-R3LcfTvcGWY-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -76,10 +76,10 @@ body {
 }
 
 .header {
-    background-image: url("../assets/img/background/annie-spratt-44241-unsplash.jpg");
+    background-image: url("../assets/img/background/annie-spratt-R3LcfTvcGWY-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 90%;
+    background-position-y: 40%;
 }
 
 .wrapper .headerContent {
@@ -140,6 +140,7 @@ body {
 
 .tabsContainer .tabsList li a {
     text-decoration: none;
+    color: seashell;
 }
 
 .tabsContainer .tabsList li.active {

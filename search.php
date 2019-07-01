@@ -39,7 +39,7 @@
         <div class="searchContainer">
             <form action="search.php" method="GET">
                 <div class="searchBarContainer">
-                    <input class="searchBox" type="text" name="term">
+                    <input class="searchBox" type="text" name="term" placeholder="Feeling Hungry?">
                     <button class="searchButton">
                     <i class="fa fa-search"></i> &nbsp; Search
                     </button>
