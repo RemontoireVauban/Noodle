@@ -8,6 +8,7 @@
     <title>Noodle</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
     <div class="wrapper indexPage">

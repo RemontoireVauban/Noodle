@@ -56,3 +56,56 @@ body {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.08);
     margin-bottom: 1%;
 }
+
+.mainSection .logoContainer {
+    text-align: center;
+}
+
+.logoContainer img{
+    width: 100%;
+}
+
+.header {
+    background-color: coral;
+    border-bottom: peachpuff;
+}
+
+.wrapper .headerContent {
+    display: flex;
+    align-items: center;
+}
+
+.headerContent .logoContainer {
+    width: 300px;
+    padding:  5px 20px;
+    box-sizing: border-box;
+}
+
+.headerContent .searchContainer{
+    flex: 1;
+}
+
+.headerContent .searchContainer form {
+    margin: 15px 0 28px 0;
+}
+
+.headerContent .searchBarContainer {
+    height: 44px;
+    border-radius: 2px;
+    background-color: Coral;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    width: 70%;
+    max-width: 630px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.headerContent .searchBarContainer .searchBox {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 16px;
+    color: seashell;
+    font-weight: 400;
+}
