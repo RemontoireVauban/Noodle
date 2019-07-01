@@ -1,0 +1,58 @@
+* {
+    /* background-color: peru; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.wrapper.indexPage {
+    justify-content: center;
+    background-image: url("../assets/img/background/annie-spratt-44241-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainSection .searchContainer {
+    width: 100%;
+}
+
+.mainSection .searchContainer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchContainer .searchButton {
+    color: navy;
+    background-color: seashell;
+    border: none;
+    height: 36px;
+    width: 125px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.mainSection .searchContainer .searchBox {
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1%;
+}
