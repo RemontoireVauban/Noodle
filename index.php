@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Noodle</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
 
 </head>
@@ -21,12 +22,13 @@
 
 
         <div class="searchContainer">
-            <form action="search.php" method="GET">
-
-                <input class="searchBox" type="text" name="term" placeholder="Feeling Hungry?">
-
-                <input class="searchButton" type="submit" value="Search">
-
+        <form action="search.php" method="GET">
+                <div class="searchBarContainer">
+                    <input class="searchBox" type="text" name="term" placeholder="Feeling Hungry?">
+                    <button class="searchButton">
+                    <i class="fa fa-search"></i> &nbsp; Search
+                    </button>
+                </div>
             </form>
         </div>
 

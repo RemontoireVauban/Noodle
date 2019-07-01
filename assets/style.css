@@ -1,5 +1,5 @@
 * {
-    /* background-color: peru; */
+    
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    background-color: seashell;
 }
 
 .wrapper.indexPage {
@@ -29,32 +30,41 @@ body {
     align-items: center;
 }
 
-.mainSection .searchContainer {
-    width: 100%;
-}
-
-.mainSection .searchContainer form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.searchContainer .searchButton {
-    color: navy;
-    background-color: seashell;
+.searchButton {
+    color: seashell;
+    background-color: cadetblue;
+    text-transform: uppercase;
+    text-decoration: none;
     border: none;
-    height: 36px;
-    width: 125px;
-    font-size: 15px;
-    border-radius: 5px;
     cursor: pointer;
-    outline: none;
 }
 
-.mainSection .searchContainer .searchBox {
-    border: none;
+.mainSection .searchContainer{
+    flex: 1;
+}
+
+.mainSection .searchContainer form {
+    margin: 15px 0 28px 0;
+}
+
+.mainSection .searchBarContainer {
+    height: 44px;
+    border-radius: 2px;
+    background-color: seashell;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.08);
-    margin-bottom: 1%;
+    max-width: 630px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.mainSection .searchBarContainer .searchBox {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
 }
 
 .mainSection .logoContainer {
@@ -66,8 +76,10 @@ body {
 }
 
 .header {
-    background-color: coral;
-    border-bottom: peachpuff;
+    background-image: url("../assets/img/background/annie-spratt-44241-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 90%;
 }
 
 .wrapper .headerContent {
@@ -92,7 +104,7 @@ body {
 .headerContent .searchBarContainer {
     height: 44px;
     border-radius: 2px;
-    background-color: Coral;
+    background-color: seashell;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.08);
     width: 70%;
     max-width: 630px;
@@ -104,8 +116,37 @@ body {
     flex: 1;
     border: none;
     background-color: transparent;
-    padding: 5px;
+    padding: 10px;
     font-size: 16px;
-    color: seashell;
+    color: black;
     font-weight: 400;
+}
+
+.tabsContainer {
+    margin-left: 150px;
+}
+
+.tabsContainer .tabsList {
+    padding: 0;
+    margin: 0;
+}
+
+.tabsContainer .tabsList li {
+    display: inline-block;
+    padding: 0 16px 12px 16px;
+    color: seashell;
+    font-size: 13px;
+}
+
+.tabsContainer .tabsList li a {
+    text-decoration: none;
+}
+
+.tabsContainer .tabsList li.active {
+    border-bottom: 3px solid seashell;
+}
+
+.tabsContainer .tabsList li.active a{
+    font-weight: bold;
+    color: seashell;
 }
