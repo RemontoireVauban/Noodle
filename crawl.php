@@ -184,6 +184,6 @@ function followLinks($url) {
 
 }
 
-$startUrl = "https://tasty.co/topic/meal-prep";
+$startUrl = "https://tasty.co";
 followLinks($startUrl);
 ?>

@@ -165,3 +165,66 @@ body {
     font-size: 13px;
     margin-left: 150px;
 }
+
+.mainResultsSection .siteResults {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+}
+
+.resultContainer .title {
+    margin: 0;
+}
+
+.resultContainer .title a {
+    color: navy;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.resultContainer .title a:hover {
+    text-decoration: underline;
+}
+
+.resultContainer .url {
+    color: cadetblue;
+    font-size: 14px;
+}
+
+.pageinationContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+
+}
+
+.pageButtons {
+    display: flex;
+}
+
+.pageNumberContainer img {
+    height: 30px;
+    padding: 3px;
+}
+
+.pageNumberContainer,
+.pageNumberContainer a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
+
+.pageNumber {
+    color: cadetblue;
+}
+
+a .pageNumber {
+    color: navy;
+}
