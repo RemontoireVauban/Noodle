@@ -75,6 +75,11 @@ body {
     width: 100%;
 }
 
+.logoContainer a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    border: 0;
+}
+
 .header {
     background-image: url("../assets/img/background/annie-spratt-R3LcfTvcGWY-unsplash.jpg");
     background-repeat: no-repeat;
@@ -150,4 +155,13 @@ body {
 .tabsContainer .tabsList li.active a{
     font-weight: bold;
     color: seashell;
+}
+
+.mainResultsSection {
+    flex: 1;
+}
+
+.mainResultsSection .resultsCount {
+    font-size: 13px;
+    margin-left: 150px;
 }
